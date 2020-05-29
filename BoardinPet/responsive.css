@@ -1,0 +1,65 @@
+@media screen and (max-width: 650px){
+	#seccion-home{
+		display: block;
+		height: 100%;
+	}
+	#section-nuestros-servicios{
+		display: block;
+	}
+	#contenedor-section2{
+		display: block;
+	}
+	#section-destinos{
+		display: block;
+		margin-top: 100px;
+	}
+	#contenedor-destinos{
+		display: block;
+	}
+	#section-quienes-somos{
+		margin-top: 900px;
+		display: block;
+	}
+	#somos{
+		display: block;
+		float: right;
+		margin-right: 100px;
+	}
+	#articulos{
+		display: block;
+		margin-top: 1100px;
+		margin-left: -20px;
+
+	}
+	#contenedorArticulos{
+		display: block;
+	}
+	#section-articulos{
+		display: block;
+	}
+	#ver-todos{
+		display: none;
+	}
+	#destino{
+		margin-left: 10px;
+	}
+	
+	.items a{
+		display: block;
+	}
+	section #contenedor{
+		display: block;
+	}
+	#caja{
+		display: block;
+	}
+	#contenedor-nav{
+		width: 100%;
+		display: block;
+	}
+	#encabezado{
+		margin-left: 10px;
+
+	}
+
+}

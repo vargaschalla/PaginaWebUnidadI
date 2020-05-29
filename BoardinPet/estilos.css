@@ -1,0 +1,350 @@
+body{
+	width: 100%;
+	text-align: center;
+	font-family: calibri;
+}
+#seccion-home{
+	background: url(imagenes/perro1.jpg);
+	background-size:100% 100%;
+	height: 700px;
+	width: 100%;
+	margin-top: -8px;
+	margin-left: -8px;
+
+}
+#contacto{
+	background-color: #767373;
+	color: white;
+	padding: 2px 5px 2px 5px;
+}
+#contenedor{
+	display: flex;
+}
+.caja{
+	flex: 20%;
+	display: flex;
+}
+.caja .fichas{
+	margin: 10px 10px 0px 10px;
+	color: #650588;
+	font-size: 12px;
+	text-decoration: none;
+}
+#imagen{
+	margin-left: 190px;
+}
+.items{
+	margin-top: 10px;
+	padding: 2px 5px 2px 5px;
+	animation-duration: 4s;
+	animation-name: items;
+}
+@keyframes items {
+  from {
+    margin-left: 100%;
+    width: 300%;
+
+  }
+
+  to {
+    margin-left: 1px;
+    width: 100%;
+  }
+}
+.items a:hover{
+	box-shadow: 2px 2px 1px black;
+}
+#items a{
+	margin-top: 10px;
+	margin-left: 70px;
+	text-decoration: none;
+	color: black;
+	font-size: 12px;
+}
+.items a{
+	margin-left: 30px;
+	text-decoration: none;
+	color: black;
+}
+#contenedor-nav{
+	text-align: left;
+	margin: 150px 0px 0px 70px;
+	color: #650588;
+}
+#caja1{
+	display: flex;
+	font-size: 20px;
+}
+#caja2{
+	display: flex;
+	font-size: 100px;
+	font-family: cooper black;
+}
+#imagenll{
+	margin-left: 550px;
+}
+
+#caja3 .boton{
+	color: #650588;
+	height: 40px;
+	width: 250px;
+	border: solid 1px #D266F9;
+	background-color: transparent;
+	margin-top: 10px;
+}
+
+#caja3 button:hover{
+	animation-duration: 1.5s;
+	animation-name: boton;
+}
+@keyframes boton{
+	from {
+		transform: scale(0.9,0.9) rotate(0deg);
+	}
+	to{
+		background-color: #650588;
+		color: white;
+	}
+}
+
+/*NUESTROS SERVICIOS*/
+
+#section-nuestros-servicios{
+	margin-top: 200px;
+}
+
+#encabezado{
+	color: #650588;
+	margin-top: 60px;
+	font-size: 2em;
+	margin-left: 400px;
+}
+#encabezado a{
+	margin-left: 350px;
+	font-size: 13px;
+	color: black;
+	text-decoration: none;
+}
+#encabezado a:hover{
+	padding: 5px;
+	box-shadow: 2px 2px 1px black;
+}
+#destino a{
+	margin-left: 400px;
+	font-size: 13px;
+	color: black;
+	text-decoration: none;
+}
+#texto{
+	margin-top: 10px;
+	font-size: 14px;
+}
+#contenedor-section2{
+	display: flex;
+	margin: 60px 80px 0px 80px;
+	
+}
+.imagenes{
+	height: 230px;
+	width: 280px;
+}
+.cajajitas{
+	margin-right: 15px;
+}
+.cajajitas div p{
+	font-size: 13px;
+}
+#boton1 button{
+	margin-top: 50px;
+	background-color: transparent;
+	height: 40px;
+	width: 250px;
+	border: solid 1px #D266F9;
+	color: #650588;
+
+
+}
+#boton1 button:hover{
+	animation-duration: 1.5s;
+	animation-name: boton;
+}
+@keyframes boton{
+	from {
+		transform: scale(0.9,0.9);
+	}
+	to{
+		background-color: #650588;
+		color: white;
+	}
+}
+
+
+
+
+/*destinos*/
+#section-destinos{
+	margin-top: 200px;
+}
+#destino{
+	font-size: 37px;
+	margin-top: 20px;
+	color: #650588;
+	margin-left: 450px;
+}
+#destino a:hover{
+	padding: 5px;
+	box-shadow: 2px 2px 1px black;
+}
+p{
+	font-size: 15px;
+	margin-top: 8px;
+}
+button{
+	color: white;
+	height: 40px;
+	width: 250px;
+	border: transparent;
+	background-color: #650588;
+	margin-top: 230px;
+}
+
+#contenedor-destinos{
+	display: flex;
+	height: 400px;
+}
+.pais{
+	margin-top: 50px;
+	font-size: 21px;
+}
+.parrafo{
+	margin-top: 7px;
+	font-size: 15px;
+}
+#caja-argentina{width: 100%;
+	background: url(imagenes/Argentina.jpg);
+	background-size: 100% 100%;
+	flex: 20%;
+	margin-right: 50px;
+	
+}
+#caja-argentina button:hover{
+	animation-duration: 1.5s;
+	animation-name: botons;
+}
+@keyframes botons{
+	from {
+		transform: scale(0.9,0.9);
+	}
+	to{
+	}
+}
+#caja-brasil1 button:hover{
+	animation-duration: 1.5s;
+	animation-name: botons;
+}
+#caja-brasil2 button:hover{
+	animation-duration: 1.5s;
+	animation-name: botons;
+}
+#caja-brasil3 button:hover{
+	animation-duration: 1.5s;
+	animation-name: botons;
+}
+
+#caja-brasil1{
+	background: url(imagenes/brasil1.jpg);
+	background-size: 100% 100%;
+	flex: 20%;
+	margin-right: 50px;
+}
+#caja-brasil2{
+	background: url(imagenes/brsil2.jpg);
+	background-size: 100% 100%;
+	flex: 20%;
+	margin-right: 50px;
+}
+#caja-brasil3{
+	background: url(imagenes/brasil3.jpg);
+	background-size: 100% 100%;
+	flex: 20%;
+}
+#ver-todos{
+	background-color: #650588;
+	margin-top: -210px;
+	height: 350px;
+	width: 100%;
+}
+#ver-todos button{
+	border: solid 1px white;
+}
+#ver-todos button:hover{
+	animation-duration: 1.5s;
+	animation-name: botons;
+}
+
+
+/*articulos*/
+
+#section-articulos{
+	margin-top: -30px;
+	height: 600px;
+	background-color: #E8E5E5;
+}
+#articulos{
+	font-size: 37px;
+	margin-top: 20px;
+	color: #650588;
+	margin-left: 450px;
+}
+#articulos a{
+	margin-left: 450px;
+	font-size: 12px;
+	text-decoration: none;
+	color: black;
+}
+#contenedorArticulos{
+	display: flex;
+	margin: 70px 70px 0px 70px;
+}
+#articulos a:hover{
+	box-shadow: 2px 2px 1px black;
+	padding: 5px;
+}
+
+
+/*QIENES SOMOS*/
+
+#section-quienes-somos{
+	text-align: left;
+	background: url(Imagenes/AdobeStock_112482963_Preview.jpeg);
+	background-size: cover;
+	height: 700px;
+	margin-top: -30px;
+}
+#titulo{
+	font-size: 37px;
+	margin-top: 20px;
+	color: #650588;
+}
+#titulo a{
+	margin-left: 5px;
+	font-size: 12px;
+	text-decoration: none;
+	color: black;
+}
+#titulo a:hover{
+	box-shadow: 2px 2px 1px black;
+	padding: 5px;
+}
+#somos{
+	margin: 100px 200px 0px 0px;
+	width: 300px;
+	float: right;
+}
+.cajalista{
+	margin-left: -20px;
+}
+
+
+
+
